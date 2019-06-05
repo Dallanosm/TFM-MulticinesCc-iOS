@@ -25,8 +25,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        carousel.type = .cylinder
+        carousel.type = .rotary
         carousel.contentMode = .scaleAspectFit
+        carousel.isPagingEnabled = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -42,7 +43,7 @@ extension ViewController: iCarouselDelegate, iCarouselDataSource{
         var image: UIImageView!
         
         if(view==nil){
-            image = UIImageView(frame: CGRect(x: 0, y: 0, width: 250, height: 250))
+            image = UIImageView(frame: CGRect(x: 0, y: 0, width: 400, height: 400))
             image.contentMode = .scaleAspectFit
         } else {
             image = view as? UIImageView
