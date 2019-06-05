@@ -14,6 +14,7 @@
 		ADA01A9122A7D3F10070C53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA01A8F22A7D3F10070C53B /* LaunchScreen.storyboard */; };
 		ADA01A9C22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A9B22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift */; };
 		ADA01AA722A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01AA622A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift */; };
+		ADA01AB722A7D9DA0070C53B /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA01AB622A7D9DA0070C53B /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		ADA01AA222A7D3F10070C53B /* Multicines CáceresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multicines CáceresUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA01AA622A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multicines_Ca_ceresUITests.swift; sourceTree = "<group>"; };
 		ADA01AA822A7D3F10070C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA01AB422A7D9DA0070C53B /* Multicines Cáceres-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multicines Cáceres-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADA01AB522A7D9DA0070C53B /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		ADA01AB622A7D9DA0070C53B /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,15 @@
 		ADA01A8522A7D3EF0070C53B /* Multicines Cáceres */ = {
 			isa = PBXGroup;
 			children = (
+				ADA01AB522A7D9DA0070C53B /* iCarousel.h */,
+				ADA01AB622A7D9DA0070C53B /* iCarousel.m */,
 				ADA01A8622A7D3F00070C53B /* AppDelegate.swift */,
 				ADA01A8822A7D3F00070C53B /* ViewController.swift */,
 				ADA01A8A22A7D3F00070C53B /* Main.storyboard */,
 				ADA01A8D22A7D3F10070C53B /* Assets.xcassets */,
 				ADA01A8F22A7D3F10070C53B /* LaunchScreen.storyboard */,
 				ADA01A9222A7D3F10070C53B /* Info.plist */,
+				ADA01AB422A7D9DA0070C53B /* Multicines Cáceres-Bridging-Header.h */,
 			);
 			path = "Multicines Cáceres";
 			sourceTree = "<group>";
@@ -193,6 +200,7 @@
 				TargetAttributes = {
 					ADA01A8222A7D3EF0070C53B = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					ADA01A9622A7D3F10070C53B = {
 						CreatedOnToolsVersion = 10.1;
@@ -256,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA01AB722A7D9DA0070C53B /* iCarousel.m in Sources */,
 				ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */,
 				ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */,
 			);
@@ -432,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Multicines Cáceres/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +450,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "nosmurf.Multicines-Ca-ceres";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Multicines Cáceres/Multicines Cáceres-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Multicines Cáceres/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "nosmurf.Multicines-Ca-ceres";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Multicines Cáceres/Multicines Cáceres-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
