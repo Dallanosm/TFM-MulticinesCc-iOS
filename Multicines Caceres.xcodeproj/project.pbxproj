@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		871ABBA1EE2BED2B22B96AE1 /* Pods_Multicines_CaceresTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E858812278181A369556F08 /* Pods_Multicines_CaceresTests.framework */; };
+		8E801AFBA78D31F513DFF789 /* Pods_Multicines_CaceresUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A74221C3A3E427348E383D5 /* Pods_Multicines_CaceresUITests.framework */; };
+		AD6C98D322BD408700F7C30D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C98D222BD408700F7C30D /* DetailViewController.swift */; };
+		ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8622A7D3F00070C53B /* AppDelegate.swift */; };
+		ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8822A7D3F00070C53B /* ViewController.swift */; };
+		ADA01A8C22A7D3F00070C53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA01A8A22A7D3F00070C53B /* Main.storyboard */; };
+		ADA01A8E22A7D3F10070C53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA01A8D22A7D3F10070C53B /* Assets.xcassets */; };
+		ADA01A9122A7D3F10070C53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA01A8F22A7D3F10070C53B /* LaunchScreen.storyboard */; };
+		ADA01A9C22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A9B22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift */; };
+		ADA01AA722A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01AA622A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift */; };
+		ADA01AB722A7D9DA0070C53B /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA01AB622A7D9DA0070C53B /* iCarousel.m */; };
+		CD7FCCC7828D1A782003AD0C /* Pods_Multicines_Caceres.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7951077FE4141D0AADB8E0 /* Pods_Multicines_Caceres.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA01A9822A7D3F10070C53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA01A7B22A7D3EF0070C53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA01A8222A7D3EF0070C53B;
+			remoteInfo = "Multicines Cáceres";
+		};
+		ADA01AA322A7D3F10070C53B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA01A7B22A7D3EF0070C53B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA01A8222A7D3EF0070C53B;
+			remoteInfo = "Multicines Cáceres";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E858812278181A369556F08 /* Pods_Multicines_CaceresTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multicines_CaceresTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A74221C3A3E427348E383D5 /* Pods_Multicines_CaceresUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multicines_CaceresUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1E7F83CD3DE0E90E2E0D1F /* Pods-Multicines CaceresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines CaceresTests.release.xcconfig"; path = "Target Support Files/Pods-Multicines CaceresTests/Pods-Multicines CaceresTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B67039AD844DFB258CFECE8 /* Pods-Multicines CaceresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines CaceresTests.debug.xcconfig"; path = "Target Support Files/Pods-Multicines CaceresTests/Pods-Multicines CaceresTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B7951077FE4141D0AADB8E0 /* Pods_Multicines_Caceres.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multicines_Caceres.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F553F293BE6D373774E2D2 /* Pods-Multicines CaceresUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines CaceresUITests.debug.xcconfig"; path = "Target Support Files/Pods-Multicines CaceresUITests/Pods-Multicines CaceresUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		650DFC8247A5D63ED1B24F91 /* Pods-Multicines Caceres.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines Caceres.release.xcconfig"; path = "Target Support Files/Pods-Multicines Caceres/Pods-Multicines Caceres.release.xcconfig"; sourceTree = "<group>"; };
+		87AA489EEF967A8D1DE2545F /* Pods-Multicines Caceres.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines Caceres.debug.xcconfig"; path = "Target Support Files/Pods-Multicines Caceres/Pods-Multicines Caceres.debug.xcconfig"; sourceTree = "<group>"; };
+		9A36029EC0A0B7E9594F91D7 /* Pods-Multicines CaceresUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines CaceresUITests.release.xcconfig"; path = "Target Support Files/Pods-Multicines CaceresUITests/Pods-Multicines CaceresUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD6C98D222BD408700F7C30D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ADA01A8322A7D3EF0070C53B /* Multicines Caceres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multicines Caceres.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA01A8622A7D3F00070C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA01A8822A7D3F00070C53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADA01A8B22A7D3F00070C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA01A8D22A7D3F10070C53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA01A9022A7D3F10070C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA01A9222A7D3F10070C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA01A9722A7D3F10070C53B /* Multicines CaceresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multicines CaceresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA01A9B22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multicines_Ca_ceresTests.swift; sourceTree = "<group>"; };
+		ADA01A9D22A7D3F10070C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA01AA222A7D3F10070C53B /* Multicines CaceresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multicines CaceresUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA01AA622A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multicines_Ca_ceresUITests.swift; sourceTree = "<group>"; };
+		ADA01AA822A7D3F10070C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA01AB422A7D9DA0070C53B /* Multicines Cáceres-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multicines Cáceres-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADA01AB522A7D9DA0070C53B /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		ADA01AB622A7D9DA0070C53B /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA01A8022A7D3EF0070C53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7FCCC7828D1A782003AD0C /* Pods_Multicines_Caceres.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA01A9422A7D3F10070C53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871ABBA1EE2BED2B22B96AE1 /* Pods_Multicines_CaceresTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA01A9F22A7D3F10070C53B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E801AFBA78D31F513DFF789 /* Pods_Multicines_CaceresUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD93DC60B7903A95E34DEF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87AA489EEF967A8D1DE2545F /* Pods-Multicines Caceres.debug.xcconfig */,
+				650DFC8247A5D63ED1B24F91 /* Pods-Multicines Caceres.release.xcconfig */,
+				5B67039AD844DFB258CFECE8 /* Pods-Multicines CaceresTests.debug.xcconfig */,
+				3F1E7F83CD3DE0E90E2E0D1F /* Pods-Multicines CaceresTests.release.xcconfig */,
+				64F553F293BE6D373774E2D2 /* Pods-Multicines CaceresUITests.debug.xcconfig */,
+				9A36029EC0A0B7E9594F91D7 /* Pods-Multicines CaceresUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E45686A25BD453FDABF2368 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7951077FE4141D0AADB8E0 /* Pods_Multicines_Caceres.framework */,
+				0E858812278181A369556F08 /* Pods_Multicines_CaceresTests.framework */,
+				3A74221C3A3E427348E383D5 /* Pods_Multicines_CaceresUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADA01A7A22A7D3EF0070C53B = {
+			isa = PBXGroup;
+			children = (
+				ADA01A8522A7D3EF0070C53B /* Multicines Cáceres */,
+				ADA01A9A22A7D3F10070C53B /* Multicines CáceresTests */,
+				ADA01AA522A7D3F10070C53B /* Multicines CáceresUITests */,
+				ADA01A8422A7D3EF0070C53B /* Products */,
+				3FD93DC60B7903A95E34DEF6 /* Pods */,
+				7E45686A25BD453FDABF2368 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA01A8422A7D3EF0070C53B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA01A8322A7D3EF0070C53B /* Multicines Caceres.app */,
+				ADA01A9722A7D3F10070C53B /* Multicines CaceresTests.xctest */,
+				ADA01AA222A7D3F10070C53B /* Multicines CaceresUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA01A8522A7D3EF0070C53B /* Multicines Cáceres */ = {
+			isa = PBXGroup;
+			children = (
+				ADA01AB522A7D9DA0070C53B /* iCarousel.h */,
+				ADA01AB622A7D9DA0070C53B /* iCarousel.m */,
+				ADA01A8622A7D3F00070C53B /* AppDelegate.swift */,
+				ADA01A8822A7D3F00070C53B /* ViewController.swift */,
+				ADA01A8A22A7D3F00070C53B /* Main.storyboard */,
+				ADA01A8D22A7D3F10070C53B /* Assets.xcassets */,
+				ADA01A8F22A7D3F10070C53B /* LaunchScreen.storyboard */,
+				ADA01A9222A7D3F10070C53B /* Info.plist */,
+				ADA01AB422A7D9DA0070C53B /* Multicines Cáceres-Bridging-Header.h */,
+				AD6C98D222BD408700F7C30D /* DetailViewController.swift */,
+			);
+			path = "Multicines Cáceres";
+			sourceTree = "<group>";
+		};
+		ADA01A9A22A7D3F10070C53B /* Multicines CáceresTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA01A9B22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift */,
+				ADA01A9D22A7D3F10070C53B /* Info.plist */,
+			);
+			path = "Multicines CáceresTests";
+			sourceTree = "<group>";
+		};
+		ADA01AA522A7D3F10070C53B /* Multicines CáceresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA01AA622A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift */,
+				ADA01AA822A7D3F10070C53B /* Info.plist */,
+			);
+			path = "Multicines CáceresUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA01A8222A7D3EF0070C53B /* Multicines Caceres */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA01AAB22A7D3F10070C53B /* Build configuration list for PBXNativeTarget "Multicines Caceres" */;
+			buildPhases = (
+				48175F0368E72E71A7C10434 /* [CP] Check Pods Manifest.lock */,
+				ADA01A7F22A7D3EF0070C53B /* Sources */,
+				ADA01A8022A7D3EF0070C53B /* Frameworks */,
+				ADA01A8122A7D3EF0070C53B /* Resources */,
+				19B53E9233F96A11773B2216 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multicines Caceres";
+			productName = "Multicines Cáceres";
+			productReference = ADA01A8322A7D3EF0070C53B /* Multicines Caceres.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA01A9622A7D3F10070C53B /* Multicines CaceresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA01AAE22A7D3F10070C53B /* Build configuration list for PBXNativeTarget "Multicines CaceresTests" */;
+			buildPhases = (
+				D1DA50B7318B7DAC3EAEB982 /* [CP] Check Pods Manifest.lock */,
+				ADA01A9322A7D3F10070C53B /* Sources */,
+				ADA01A9422A7D3F10070C53B /* Frameworks */,
+				ADA01A9522A7D3F10070C53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA01A9922A7D3F10070C53B /* PBXTargetDependency */,
+			);
+			name = "Multicines CaceresTests";
+			productName = "Multicines CáceresTests";
+			productReference = ADA01A9722A7D3F10070C53B /* Multicines CaceresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADA01AA122A7D3F10070C53B /* Multicines CaceresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA01AB122A7D3F10070C53B /* Build configuration list for PBXNativeTarget "Multicines CaceresUITests" */;
+			buildPhases = (
+				842734888B3FA2CE069413A4 /* [CP] Check Pods Manifest.lock */,
+				ADA01A9E22A7D3F10070C53B /* Sources */,
+				ADA01A9F22A7D3F10070C53B /* Frameworks */,
+				ADA01AA022A7D3F10070C53B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA01AA422A7D3F10070C53B /* PBXTargetDependency */,
+			);
+			name = "Multicines CaceresUITests";
+			productName = "Multicines CáceresUITests";
+			productReference = ADA01AA222A7D3F10070C53B /* Multicines CaceresUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA01A7B22A7D3EF0070C53B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daniel Llanos Muñoz";
+				TargetAttributes = {
+					ADA01A8222A7D3EF0070C53B = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					ADA01A9622A7D3F10070C53B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ADA01A8222A7D3EF0070C53B;
+					};
+					ADA01AA122A7D3F10070C53B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = ADA01A8222A7D3EF0070C53B;
+					};
+				};
+			};
+			buildConfigurationList = ADA01A7E22A7D3EF0070C53B /* Build configuration list for PBXProject "Multicines Caceres" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA01A7A22A7D3EF0070C53B;
+			productRefGroup = ADA01A8422A7D3EF0070C53B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA01A8222A7D3EF0070C53B /* Multicines Caceres */,
+				ADA01A9622A7D3F10070C53B /* Multicines CaceresTests */,
+				ADA01AA122A7D3F10070C53B /* Multicines CaceresUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA01A8122A7D3EF0070C53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA01A9122A7D3F10070C53B /* LaunchScreen.storyboard in Resources */,
+				ADA01A8E22A7D3F10070C53B /* Assets.xcassets in Resources */,
+				ADA01A8C22A7D3F00070C53B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA01A9522A7D3F10070C53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA01AA022A7D3F10070C53B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B53E9233F96A11773B2216 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multicines Caceres/Pods-Multicines Caceres-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multicines Caceres/Pods-Multicines Caceres-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multicines Caceres/Pods-Multicines Caceres-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48175F0368E72E71A7C10434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multicines Caceres-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		842734888B3FA2CE069413A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multicines CaceresUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1DA50B7318B7DAC3EAEB982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multicines CaceresTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA01A7F22A7D3EF0070C53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA01AB722A7D9DA0070C53B /* iCarousel.m in Sources */,
+				ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */,
+				ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */,
+				AD6C98D322BD408700F7C30D /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA01A9322A7D3F10070C53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA01A9C22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA01A9E22A7D3F10070C53B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA01AA722A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA01A9922A7D3F10070C53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA01A8222A7D3EF0070C53B /* Multicines Caceres */;
+			targetProxy = ADA01A9822A7D3F10070C53B /* PBXContainerItemProxy */;
+		};
+		ADA01AA422A7D3F10070C53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA01A8222A7D3EF0070C53B /* Multicines Caceres */;
+			targetProxy = ADA01AA322A7D3F10070C53B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA01A8A22A7D3F00070C53B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA01A8B22A7D3F00070C53B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA01A8F22A7D3F10070C53B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA01A9022A7D3F10070C53B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA01AA922A7D3F10070C53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA01AAA22A7D3F10070C53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA01AAC22A7D3F10070C53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AA489EEF967A8D1DE2545F /* Pods-Multicines Caceres.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Multicines Cáceres/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nosmurf.Multicines-Ca-ceres";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Multicines Cáceres/Multicines Cáceres-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA01AAD22A7D3F10070C53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650DFC8247A5D63ED1B24F91 /* Pods-Multicines Caceres.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Multicines Cáceres/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nosmurf.Multicines-Ca-ceres";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Multicines Cáceres/Multicines Cáceres-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADA01AAF22A7D3F10070C53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B67039AD844DFB258CFECE8 /* Pods-Multicines CaceresTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Multicines CáceresTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nosmurf.Multicines-Ca-ceresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multicines Caceres.app/Multicines Caceres";
+			};
+			name = Debug;
+		};
+		ADA01AB022A7D3F10070C53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1E7F83CD3DE0E90E2E0D1F /* Pods-Multicines CaceresTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Multicines CáceresTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nosmurf.Multicines-Ca-ceresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multicines Caceres.app/Multicines Caceres";
+			};
+			name = Release;
+		};
+		ADA01AB222A7D3F10070C53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F553F293BE6D373774E2D2 /* Pods-Multicines CaceresUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Multicines CáceresUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nosmurf.Multicines-Ca-ceresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multicines Cáceres";
+			};
+			name = Debug;
+		};
+		ADA01AB322A7D3F10070C53B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A36029EC0A0B7E9594F91D7 /* Pods-Multicines CaceresUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Multicines CáceresUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nosmurf.Multicines-Ca-ceresUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multicines Cáceres";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA01A7E22A7D3EF0070C53B /* Build configuration list for PBXProject "Multicines Caceres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA01AA922A7D3F10070C53B /* Debug */,
+				ADA01AAA22A7D3F10070C53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA01AAB22A7D3F10070C53B /* Build configuration list for PBXNativeTarget "Multicines Caceres" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA01AAC22A7D3F10070C53B /* Debug */,
+				ADA01AAD22A7D3F10070C53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA01AAE22A7D3F10070C53B /* Build configuration list for PBXNativeTarget "Multicines CaceresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA01AAF22A7D3F10070C53B /* Debug */,
+				ADA01AB022A7D3F10070C53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA01AB122A7D3F10070C53B /* Build configuration list for PBXNativeTarget "Multicines CaceresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA01AB222A7D3F10070C53B /* Debug */,
+				ADA01AB322A7D3F10070C53B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA01A7B22A7D3EF0070C53B /* Project object */;
+}

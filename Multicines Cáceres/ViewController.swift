@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
@@ -29,6 +30,20 @@ class ViewController: UIViewController {
         carousel.contentMode = .scaleAspectFit
         carousel.isPagingEnabled = true
         // Do any additional setup after loading the view, typically from a nib.
+        getRequestWithAlamofire()
+        
+    }
+    
+    func getRequestWithAlamofire(){
+        Alamofire.request("http://llanosmunoz.com:8084/movies").responseJSON { response in
+            if let json = response.result.value as! NSArray? {
+                for element  in json {
+                    let data = element as! NSDictionary
+                    print(data.object(forKey: "id"))
+                }
+              //  print("JSON: \(json)") // serialized json response
+            }
+        }
     }
 
 }

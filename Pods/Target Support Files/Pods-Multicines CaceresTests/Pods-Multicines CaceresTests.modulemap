@@ -1,0 +1,6 @@
+framework module Pods_Multicines_CaceresTests {
+  umbrella header "Pods-Multicines CaceresTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
