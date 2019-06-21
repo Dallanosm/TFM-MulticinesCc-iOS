@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD6C98D322BD408700F7C30D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C98D222BD408700F7C30D /* DetailViewController.swift */; };
 		ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8622A7D3F00070C53B /* AppDelegate.swift */; };
 		ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8822A7D3F00070C53B /* ViewController.swift */; };
 		ADA01A8C22A7D3F00070C53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA01A8A22A7D3F00070C53B /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD6C98D222BD408700F7C30D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ADA01A8322A7D3EF0070C53B /* Multicines Cáceres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multicines Cáceres.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA01A8622A7D3F00070C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA01A8822A7D3F00070C53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				ADA01A8F22A7D3F10070C53B /* LaunchScreen.storyboard */,
 				ADA01A9222A7D3F10070C53B /* Info.plist */,
 				ADA01AB422A7D9DA0070C53B /* Multicines Cáceres-Bridging-Header.h */,
+				AD6C98D222BD408700F7C30D /* DetailViewController.swift */,
 			);
 			path = "Multicines Cáceres";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				ADA01AB722A7D9DA0070C53B /* iCarousel.m in Sources */,
 				ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */,
 				ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */,
+				AD6C98D322BD408700F7C30D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

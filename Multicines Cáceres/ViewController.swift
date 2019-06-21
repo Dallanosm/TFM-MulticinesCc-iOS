@@ -53,5 +53,11 @@ extension ViewController: iCarouselDelegate, iCarouselDataSource{
         return image
     }
     
+    func carousel(_ carousel: iCarousel, didSelectItemAt index: Int) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        self.present(newViewController, animated: true, completion: nil)
+    }
+    
 }
 
