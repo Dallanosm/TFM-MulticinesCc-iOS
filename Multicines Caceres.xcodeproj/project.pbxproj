@@ -15,7 +15,6 @@
 		ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8622A7D3F00070C53B /* AppDelegate.swift */; };
 		ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8822A7D3F00070C53B /* ViewController.swift */; };
 		ADA01A8C22A7D3F00070C53B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA01A8A22A7D3F00070C53B /* Main.storyboard */; };
-		ADA01A8E22A7D3F10070C53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA01A8D22A7D3F10070C53B /* Assets.xcassets */; };
 		ADA01A9122A7D3F10070C53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA01A8F22A7D3F10070C53B /* LaunchScreen.storyboard */; };
 		ADA01A9C22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A9B22A7D3F10070C53B /* Multicines_Ca_ceresTests.swift */; };
 		ADA01AA722A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01AA622A7D3F10070C53B /* Multicines_Ca_ceresUITests.swift */; };
@@ -57,7 +56,6 @@
 		ADA01A8622A7D3F00070C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA01A8822A7D3F00070C53B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADA01A8B22A7D3F00070C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ADA01A8D22A7D3F10070C53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA01A9022A7D3F10070C53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADA01A9222A7D3F10070C53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADA01A9722A7D3F10070C53B /* Multicines CaceresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multicines CaceresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,7 +150,6 @@
 				ADA01A8622A7D3F00070C53B /* AppDelegate.swift */,
 				ADA01A8822A7D3F00070C53B /* ViewController.swift */,
 				ADA01A8A22A7D3F00070C53B /* Main.storyboard */,
-				ADA01A8D22A7D3F10070C53B /* Assets.xcassets */,
 				ADA01A8F22A7D3F10070C53B /* LaunchScreen.storyboard */,
 				ADA01A9222A7D3F10070C53B /* Info.plist */,
 				ADA01AB422A7D9DA0070C53B /* Multicines Cáceres-Bridging-Header.h */,
@@ -291,7 +288,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA01A9122A7D3F10070C53B /* LaunchScreen.storyboard in Resources */,
-				ADA01A8E22A7D3F10070C53B /* Assets.xcassets in Resources */,
 				ADA01A8C22A7D3F00070C53B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
