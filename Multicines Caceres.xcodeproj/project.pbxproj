@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		871ABBA1EE2BED2B22B96AE1 /* Pods_Multicines_CaceresTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E858812278181A369556F08 /* Pods_Multicines_CaceresTests.framework */; };
 		8E801AFBA78D31F513DFF789 /* Pods_Multicines_CaceresUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A74221C3A3E427348E383D5 /* Pods_Multicines_CaceresUITests.framework */; };
+		AD38F40622BE737A0002DD6E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38F40522BE737A0002DD6E /* Movie.swift */; };
+		AD38F40822BE74E70002DD6E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38F40722BE74E70002DD6E /* Schedule.swift */; };
 		AD6C98D322BD408700F7C30D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C98D222BD408700F7C30D /* DetailViewController.swift */; };
 		ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8622A7D3F00070C53B /* AppDelegate.swift */; };
 		ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8822A7D3F00070C53B /* ViewController.swift */; };
@@ -48,6 +50,8 @@
 		650DFC8247A5D63ED1B24F91 /* Pods-Multicines Caceres.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines Caceres.release.xcconfig"; path = "Target Support Files/Pods-Multicines Caceres/Pods-Multicines Caceres.release.xcconfig"; sourceTree = "<group>"; };
 		87AA489EEF967A8D1DE2545F /* Pods-Multicines Caceres.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines Caceres.debug.xcconfig"; path = "Target Support Files/Pods-Multicines Caceres/Pods-Multicines Caceres.debug.xcconfig"; sourceTree = "<group>"; };
 		9A36029EC0A0B7E9594F91D7 /* Pods-Multicines CaceresUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines CaceresUITests.release.xcconfig"; path = "Target Support Files/Pods-Multicines CaceresUITests/Pods-Multicines CaceresUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD38F40522BE737A0002DD6E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AD38F40722BE74E70002DD6E /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		AD6C98D222BD408700F7C30D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ADA01A8322A7D3EF0070C53B /* Multicines Caceres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multicines Caceres.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA01A8622A7D3F00070C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,7 +109,6 @@
 				64F553F293BE6D373774E2D2 /* Pods-Multicines CaceresUITests.debug.xcconfig */,
 				9A36029EC0A0B7E9594F91D7 /* Pods-Multicines CaceresUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,6 +157,8 @@
 				ADA01A9222A7D3F10070C53B /* Info.plist */,
 				ADA01AB422A7D9DA0070C53B /* Multicines Cáceres-Bridging-Header.h */,
 				AD6C98D222BD408700F7C30D /* DetailViewController.swift */,
+				AD38F40522BE737A0002DD6E /* Movie.swift */,
+				AD38F40722BE74E70002DD6E /* Schedule.swift */,
 			);
 			path = "Multicines Cáceres";
 			sourceTree = "<group>";
@@ -398,10 +403,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD38F40822BE74E70002DD6E /* Schedule.swift in Sources */,
 				ADA01AB722A7D9DA0070C53B /* iCarousel.m in Sources */,
 				ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */,
 				ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */,
 				AD6C98D322BD408700F7C30D /* DetailViewController.swift in Sources */,
+				AD38F40622BE737A0002DD6E /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
