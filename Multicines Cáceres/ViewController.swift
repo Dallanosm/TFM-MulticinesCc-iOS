@@ -31,12 +31,10 @@ class ViewController: UIViewController {
         carousel.type = .rotary
         carousel.contentMode = .scaleAspectFit
         carousel.isPagingEnabled = true
-        // Do any additional setup after loading the view, typically from a nib.
-        getRequestWithAlamofire()
-        
+        getMovies()
     }
     
-    func getRequestWithAlamofire(){
+    func getMovies(){
         Alamofire.request("http://llanosmunoz.com:8084/movies").responseJSON { response in
             if let json = response.result.value as! NSArray? {
                 for element  in json {
@@ -75,6 +73,7 @@ extension ViewController: iCarouselDelegate, iCarouselDataSource{
     func carousel(_ carousel: iCarousel, didSelectItemAt index: Int) {
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let newViewController = storyBoard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        newViewController.movieId = self.movies[index].id
         self.present(newViewController, animated: true, completion: nil)
     }
     

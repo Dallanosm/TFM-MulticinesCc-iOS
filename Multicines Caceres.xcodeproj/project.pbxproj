@@ -11,6 +11,8 @@
 		8E801AFBA78D31F513DFF789 /* Pods_Multicines_CaceresUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A74221C3A3E427348E383D5 /* Pods_Multicines_CaceresUITests.framework */; };
 		AD38F40622BE737A0002DD6E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38F40522BE737A0002DD6E /* Movie.swift */; };
 		AD38F40822BE74E70002DD6E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38F40722BE74E70002DD6E /* Schedule.swift */; };
+		AD38F40A22BF7D850002DD6E /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38F40922BF7D850002DD6E /* MovieDetails.swift */; };
+		AD38F40C22BF7DAB0002DD6E /* Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38F40B22BF7DAB0002DD6E /* Cast.swift */; };
 		AD6C98D322BD408700F7C30D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C98D222BD408700F7C30D /* DetailViewController.swift */; };
 		ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8622A7D3F00070C53B /* AppDelegate.swift */; };
 		ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA01A8822A7D3F00070C53B /* ViewController.swift */; };
@@ -51,6 +53,8 @@
 		9A36029EC0A0B7E9594F91D7 /* Pods-Multicines CaceresUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multicines CaceresUITests.release.xcconfig"; path = "Target Support Files/Pods-Multicines CaceresUITests/Pods-Multicines CaceresUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AD38F40522BE737A0002DD6E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		AD38F40722BE74E70002DD6E /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		AD38F40922BF7D850002DD6E /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
+		AD38F40B22BF7DAB0002DD6E /* Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
 		AD6C98D222BD408700F7C30D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ADA01A8322A7D3EF0070C53B /* Multicines Caceres.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multicines Caceres.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA01A8622A7D3F00070C53B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +160,8 @@
 				AD6C98D222BD408700F7C30D /* DetailViewController.swift */,
 				AD38F40522BE737A0002DD6E /* Movie.swift */,
 				AD38F40722BE74E70002DD6E /* Schedule.swift */,
+				AD38F40922BF7D850002DD6E /* MovieDetails.swift */,
+				AD38F40B22BF7DAB0002DD6E /* Cast.swift */,
 			);
 			path = "Multicines Cáceres";
 			sourceTree = "<group>";
@@ -399,7 +405,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD38F40C22BF7DAB0002DD6E /* Cast.swift in Sources */,
 				AD38F40822BE74E70002DD6E /* Schedule.swift in Sources */,
+				AD38F40A22BF7D850002DD6E /* MovieDetails.swift in Sources */,
 				ADA01AB722A7D9DA0070C53B /* iCarousel.m in Sources */,
 				ADA01A8922A7D3F00070C53B /* ViewController.swift in Sources */,
 				ADA01A8722A7D3F00070C53B /* AppDelegate.swift in Sources */,
